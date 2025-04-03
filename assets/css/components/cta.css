@@ -1,5 +1,7 @@
+@import "../style.css";
+
 .cta {
-  background-color: #ff6200;
+  background-color: var(--Laranja);
   color: white;
   padding: 10px 20px;
   text-decoration: none;

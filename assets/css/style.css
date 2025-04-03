@@ -3,6 +3,16 @@
 @import "components/cta.css";
 @import "components/form.css";
 
+:root {
+    --Azul-Escuro: #1E3A8A; /*Cor primária (cabeçalho, títulos).*/
+    --Azul-Claro: #3B82F6;  
+    --Cinza-Claro: #D1D5DB; /*Cor secundária (fundo, textos menores).*/
+    --Cinza-Escuro: #4B5563;
+    --Verde: #16A34A;     /*Cor de apoio (detalhes, ícones).*/
+    --Laranja: #F97316;  /*Cor de destaque (botões de CTA).*/
+    --Branco: #FFFFFF;   /*Base neutra.*/   
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
