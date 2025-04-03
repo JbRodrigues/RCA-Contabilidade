@@ -2,19 +2,24 @@
 @import "components/contact.css";
 @import "components/cta.css";
 @import "components/form.css";
+@import "components/hero.css";
+@import "components/footer.css";
+@import "components/testimonials.css";
+@import "components/contactForm.css";
 
 :root {
-    --Azul-Escuro: #1E3A8A; /*Cor primária (cabeçalho, títulos).*/
-    --Azul-Claro: #3B82F6;  
-    --Cinza-Claro: #D1D5DB; /*Cor secundária (fundo, textos menores).*/
-    --Cinza-Escuro: #4B5563;
-    --Verde: #16A34A;     /*Cor de apoio (detalhes, ícones).*/
-    --Laranja: #F97316;  /*Cor de destaque (botões de CTA).*/
-    --Branco: #FFFFFF;   /*Base neutra.*/   
+  --Azul-Escuro: #1e3a8a; /*Cor primária (cabeçalho, títulos).*/
+  --Azul-Claro: #3b82f6;
+  --Cinza-Claro: #d1d5db; /*Cor secundária (fundo, textos menores).*/
+  --Cinza-Escuro: #4b5563;
+  --Verde: #16a34a; /*Cor de apoio (detalhes, ícones).*/
+  --Laranja: #f97316; /*Cor de destaque (botões de CTA).*/
+  --Branco: #ffffff; /*Base neutra.*/
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }

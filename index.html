@@ -1,29 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contabilidade Simples</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="assets/images/logo.png" alt="Logo Contabilidade Simples">
-        <h1>Contabilidade Descomplicada</h1>
-        <p>Foque no seu negócio, nós cuidamos dos números.</p>
-        <a href="#contato" class="cta">Peça Seu Orçamento</a>
+      <img src="assets/images/logo.png" alt="Logo Contabilidade Simples" />
+      <h1>Contabilidade Descomplicada</h1>
+      <p>Foque no seu negócio, nós cuidamos dos números.</p>
+      <a href="#contato" class="cta">Peça Seu Orçamento</a>
     </header>
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <form id="contact-form">
-            <input type="text" name="nome" placeholder="Nome" required>
-            <input type="email" name="email" placeholder="E-mail" required>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <script src="assets/script/script.js"></script>
-</body>
 
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Transforme a Gestão Contábil da Sua Empresa</h1>
+        <p class="hero-description">
+          Simplifique seus processos contábeis e foque no que importa para o
+          crescimento do seu negócio.
+        </p>
+        <a href="#form" class="btn btn-primary hero-cta"
+          >Solicite uma Consulta</a
+        >
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Entre em Contato</h2>
+      <form id="contact-form">
+        <input type="text" name="nome" placeholder="Nome" required />
+        <input type="email" name="email" placeholder="E-mail" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          "A equipe de contabilidade foi essencial para o crescimento do nosso
+          negócio. Sempre rápidos e eficientes!"
+        </p>
+        <p class="testimonial-author">João Silva, CEO - Empresa X</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          "Recomendo! O suporte foi incrível, e a solução de contabilidade foi
+          exatamente o que precisávamos."
+        </p>
+        <p class="testimonial-author">Maria Oliveira, CFO - Empresa Y</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="form" class="contact-form">
+      <h2 class="section-title">Entre em Contato</h2>
+      <form action="#" method="POST" class="form-container">
+        <div class="form-field">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-field">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Contabilidade XYZ | Todos os direitos reservados</p>
+        <div class="footer-links">
+          <a href="#about">Sobre</a>
+          <a href="#services">Serviços</a>
+          <a href="#contact">Contato</a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/script/script.js"></script>
+  </body>
 </html>
