@@ -6,6 +6,7 @@
 @import "components/footer.css";
 @import "components/testimonials.css";
 @import "components/contactForm.css";
+@import "components/navbar.css";
 
 :root {
   --Azul-Escuro: #1e3a8a; /*Cor primária (cabeçalho, títulos).*/
@@ -21,5 +22,5 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: var(--Azul-Claro);
 }

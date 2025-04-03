@@ -26,12 +26,14 @@
 .hero-cta {
   padding: 12px 25px;
   font-size: 18px;
-  background-color: #007bff;
+  background-color: var(--Laranja);
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .hero-cta:hover {
-  background-color: #0056b3;
+  background-color: #e85a13;
+  transform: scale(1.1) translateY(-3px);
 }
