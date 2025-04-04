@@ -10,26 +10,26 @@
 .nav-title {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0.5rem;
   font-size: 2rem;
   color: var(--Laranja);
+  padding: .3rem;
 }
 
 .nav-text-container{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     margin: .3rem;
 }
 
 .nav-text {
-  color: var(--Branco);
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  border: 1px solid white;
+  color: var(--Branco);
   height: 40px;
   text-decoration: none;
+  margin: 1rem;
+  padding: .3rem;
 }
