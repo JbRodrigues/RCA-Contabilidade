@@ -19,82 +19,21 @@
   padding: 3rem;
 }
 
-.hero svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
-}
-
-@keyframes mover-e-mudar-cor {
-  0% {
-    /*transform: translateY(05px);*/
-    fill: var(--Laranja);
-    r: 35;
-    opacity: 0.2;
-  }
-  50% {
-    /*transform: translateY(0); */
-    fill: #f16807;
-    r: 40;
-    opacity: 0.5;
-  }
-  100% {
-    /*transform: translateY(05px);*/
-    fill: var(--Laranja); 
-    r: 35;
-    opacity: 0.2;
-  }
-}
-
-@keyframes mover-e-mudar-cor2 {
-  0% {
-    /*transform: translateY(0);*/
-    fill: var(--Laranja);
-    r: 30;
-    opacity: 0.5;
-  }
-  50% {
-   /* transform: translateY(05px);*/
-    fill: #f16807;
-    r: 25;
-    opacity: 0.2;
-  }
-  100% {
-   /* transform: translateY(0);*/
-    fill: var(--Laranja); /* Cor inicial */
-    r: 30;
-    opacity: 0,5;
-  }
-}
-
 @keyframes moves {
   0% {
     transform: translateY(0);
-    
   }
   50% {
-   transform: translateY(8px);
-  
+    transform: translateY(8px);
   }
   100% {
-   transform: translateY(0);
-    
+    transform: translateY(0);
   }
 }
 
-#hero-vector-image{
+#hero-vector-image {
   max-width: 500px;
-  animation: moves 2s infinite ease-in-out;
-}
-
-svg #circle1 {
-  animation: mover-e-mudar-cor 3s infinite ease-in-out;
-}
-
-svg #circle2 {
-  animation: mover-e-mudar-cor2 3s infinite ease-in-out;
+  animation: moves 3s infinite ease-in-out;
 }
 
 .hero-title {
@@ -146,4 +85,5 @@ svg #circle2 {
           opacity="0.5"
         />
       </svg> 
+   
 */
