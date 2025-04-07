@@ -38,10 +38,11 @@
   text-decoration: none;
   margin: 1rem;
   padding: 0.3rem;
+  transition: transform 0.2s ease;
 }
 
 .nav-text:hover {
-  transform: scale(1.1) translateY(-3px);
+  transform: scale(1.05);
   border: 3px solid var(--Laranja);
   border-radius: 5px;
 }
