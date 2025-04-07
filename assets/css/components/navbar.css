@@ -45,3 +45,8 @@
   border: 3px solid var(--Laranja);
   border-radius: 5px;
 }
+
+hr {
+  width: 90%;
+  border: thin solid var(--Laranja);
+}

@@ -3,6 +3,7 @@
 .help {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: var(--Branco);
   padding: 2rem;
@@ -26,17 +27,24 @@
   border: 1px solid black;
   margin: 0.5rem;
   border-radius: 15px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
 .help-card-icon {
   width: 80px;
   height: 80px;
-  background-color: #f9741646;
+  /*background-color: #f9741646;*/
+  border: thin outset var(--Laranja);
+  border-radius: 5px;
   margin: 1rem;
 }
 
 .help-card-title {
   margin: 1rem;
+}
+
+.help-text{
+    font-weight: bold;
 }
 
 .help-card-text {
@@ -50,11 +58,14 @@
 }
 
 .help-card-buttom {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  color: var(--Verde);
+  font-weight: bold;
 }
 
 .help-card-buttom a:visited {
-  text-decoration: none;
   color: inherit;
 }
 
