@@ -7,6 +7,7 @@
 @import "components/testimonials.css";
 @import "components/contactForm.css";
 @import "components/navbar.css";
+@import "components/help.css";
 
 :root {
   --Azul-Escuro: #1e3a8a; /*Cor primária (cabeçalho, títulos).*/
@@ -16,6 +17,10 @@
   --Verde: #16a34a; /*Cor de apoio (detalhes, ícones).*/
   --Laranja: #f97316; /*Cor de destaque (botões de CTA).*/
   --Branco: #ffffff; /*Base neutra.*/
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

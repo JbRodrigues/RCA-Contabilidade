@@ -1,0 +1,64 @@
+@import "../style.css";
+
+.help {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--Branco);
+  padding: 2rem;
+}
+
+.help-title {
+  color: var(--Laranja);
+}
+
+.help-text {
+  color: var(--Verde);
+}
+.help-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.help-cards {
+  height: 350px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.help-card-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #f9741646;
+  margin: 1rem;
+}
+
+.help-card-title {
+  margin: 1rem;
+}
+
+.help-card-text {
+  margin: 1rem;
+}
+
+.saiba-mais-card {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.help-card-buttom {
+  text-decoration: none;
+}
+
+.help-card-buttom a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.help-button-icon {
+  width: 50px;
+  height: 50px;
+}
