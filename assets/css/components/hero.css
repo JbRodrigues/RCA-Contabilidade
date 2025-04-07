@@ -6,6 +6,7 @@
   flex-direction: row;
   color: white;
   text-align: center;
+  padding: 5rem;
 }
 
 .hero-container {
@@ -68,6 +69,26 @@
   }
 }
 
+@keyframes moves {
+  0% {
+    transform: translateY(0);
+    
+  }
+  50% {
+   transform: translateY(8px);
+  
+  }
+  100% {
+   transform: translateY(0);
+    
+  }
+}
+
+#hero-vector-image{
+  max-width: 500px;
+  animation: moves 2s infinite ease-in-out;
+}
+
 svg #circle1 {
   animation: mover-e-mudar-cor 3s infinite ease-in-out;
 }
@@ -100,3 +121,29 @@ svg #circle2 {
   background-color: #e85a13;
   transform: scale(1.1) translateY(-3px);
 }
+
+/* SVG PARA HTML
+<svg
+        width="100"
+        height="100"
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          id="circle1"
+          cx="60"
+          cy="40"
+          r="40"
+          fill="#f97316"
+          opacity="0.5"
+        />
+        <circle
+          id="circle2"
+          cx="40"
+          cy="60"
+          r="30"
+          fill="#f97316"
+          opacity="0.5"
+        />
+      </svg> 
+*/
