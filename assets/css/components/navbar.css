@@ -33,17 +33,19 @@
 .nav-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   color: var(--Branco);
   height: 40px;
   text-decoration: none;
   margin: 1rem;
   padding: 0.3rem;
-  transition: transform 0.2s ease;
+  border: 1px solid white;
+  border-radius: 15px;
+  min-width: 110px;
 }
 
 .nav-text:hover {
-  transform: scale(1.05);
-  border: 3px solid var(--Laranja);
+  border: 1px solid var(--Laranja);
   border-radius: 5px;
 }
 
