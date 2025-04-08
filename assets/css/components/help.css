@@ -84,3 +84,95 @@
   width: 50px;
   height: 50px;
 }
+
+@media (max-width: 768px) {
+  .help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Roxo-Medio);
+    padding: 1rem;
+  }
+
+  .help-title {
+    color: var(--base);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .help-text {
+    text-align: center;
+    max-width: 250px;
+    color: var(--Dourado-Claro);
+    font-weight: bold;
+  }
+
+  .help-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .help-cards {
+    height: 300px;
+    width: 250px;
+    border: 1px solid var(--highlight);
+    margin: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .help-cards:hover {
+    transform: scale(1.1) translateY(-3px);
+  }
+
+  .help-card-icon {
+    width: 40px;
+    height: 40px;
+    border: thin outset var(--highlight);
+    border-radius: 10px;
+    margin: 1rem;
+  }
+
+  .help-card-title {
+    margin: 0.5rem;
+    color: var(--Dourado-Claro);
+    font-weight: bold;
+  }
+
+  .help-card-text {
+    margin: 0.5rem;
+    color: var(--base);
+  }
+
+  .saiba-mais-card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  .saiba-mais-card a:hover {
+    color: var(--base);
+  }
+
+  .help-card-buttom {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--highlight);
+    font-weight: bold;
+  }
+
+  .help-card-buttom a:visited {
+    color: inherit;
+  }
+
+  .help-button-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
