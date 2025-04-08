@@ -17,22 +17,29 @@
   --Verde: #16a34a; /*Cor de apoio (detalhes, ícones).*/
   --Laranja: #f97316; /*Cor de destaque (botões de CTA).*/
   --Branco: #ffffff; /*Base neutra.*/
+
+  /*Paleta Alternativa*/
+  --primary: #4c1d95; /* Cabeçalho, títulos principais, fundo de seções importantes.*/
+  --secondary: #8b5cf6; /* Detalhes, subtítulos, bordas ou fundos secundários.*/
+  --highlight: #d4af37; /* Botões de CTA ("Peça Seu Orçamento"), ícones ou linhas de destaque. */
+  --neutral: #374151; /* Texto principal, linhas divisórias. */
+  --base: #f9fafb; /* Fundo principal, espaçamento. */
+  --Roxo-Medio: #6d28d9; /*(entre o escuro e o claro, para mais versatilidade).*/
+  --Dourado-Claro: #e5c07b; /*(menos intenso, mais sutil).*/
+  --Azul-Acinzentado: #6b7280; /*como neutro alternativo, para um toque mais sóbrio).*/
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px; /* 1rem = 16px */
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--Azul-Claro);
-}
-
-/* Definir tamanho base relativo */
-html {
-  font-size: 16px; /* 1rem = 16px */
+  background-color: var(--base);
+  color: var(--neutral);
 }
 
 /* Estilos padrão (desktop) */

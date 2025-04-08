@@ -1,14 +1,22 @@
 @import "../style.css";
 
-/* form.css */
 .contact-form {
-  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 600px;
+  margin: 1rem;
+  padding: 1rem;
   text-align: center;
-  color: var(--Branco);
+  color: var(--neutral);
+}
+
+.form-title {
+  color: var(--secondary);
 }
 
 .form-container {
-  max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -21,7 +29,7 @@
 
 .form-field label {
   font-size: 20px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .form-field input,
@@ -38,14 +46,10 @@
   resize: vertical;
 }
 
-.btn {
-  padding: 12px 25px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
+.form-button {
+  font: 20px bold;
   border-radius: 5px;
-}
-
-.btn:hover {
-  background-color: #0056b3;
+  background-color: var(--Dourado-Claro);
+  height: 35px;
+  width: 107%;
 }
