@@ -59,8 +59,7 @@ header {
 }
 
 .nav-text:hover, .nav-text:focus {
-  border: 1px solid var(--Roxo-Medio);
-  border-radius: 5px;
+  text-decoration: underline solid 3px var(--Roxo-Medio);
 }
 
 hr {

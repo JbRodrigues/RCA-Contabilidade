@@ -101,6 +101,15 @@
     color: var(--Base);
     text-align: center;
     font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .underline-target {
+    transition: text-decoration 0.3s ease, color 0.3s ease;
+  }
+  
+  .underline {
+    text-decoration: underline solid var(--Dourado-Insta); /* Cor e estilo do sublinhado */
   }
 
   .help-text {
