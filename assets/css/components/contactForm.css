@@ -57,6 +57,7 @@
 
 .form-button {
   font: 20px bold;
+  border: 0;
   border-radius: 5px;
   background-color: var(--Dourado-Claro);
   height: 35px;
