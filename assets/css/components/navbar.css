@@ -1,10 +1,9 @@
 header {
-  background-color: var(--Roxo-Medio);
-  color: var(--base);
+  background-color: var(--Base);
+  color: var(--Roxo-Medio);
 }
 
 .navbar {
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -14,10 +13,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.nav-title-container img {
-  height: 80px;
 }
 
 .nav-title-desc {
@@ -32,7 +27,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   font-size: 2rem;
-  color: var(--base);
+  color: var(--Roxo-Medio);
   margin: -1rem;
   padding-top: 1rem;
 }
@@ -53,9 +48,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--base);
-  font-weight: bold;
-  font-size: larger;
+  color: var(--Roxo-Medio);
+  font-weight: 400;
+  font-size: large;
   height: 40px;
   text-decoration: none;
   margin: 1rem;
@@ -63,13 +58,13 @@ header {
   min-width: 110px;
 }
 
-.nav-text:hover {
-  border: 1px solid var(--highlight);
+.nav-text:hover, .nav-text:focus {
+  border: 1px solid var(--Roxo-Medio);
   border-radius: 5px;
 }
 
 hr {
-  border: 2px solid var(--highlight);
+  border: 2px solid var(--Highlight);
   margin-top: 0;
 }
 
@@ -87,7 +82,7 @@ hr {
   }
 
   .nav-title {
-    color: var(--base);
+    color: var(--Base);
     font-size: 16px;
   }
 
@@ -107,7 +102,7 @@ hr {
   }
 
   .nav-text {
-    color: var(--base);
+    color: var(--Base);
     font-weight: bold;
     font-size: small;
     width: 50px;

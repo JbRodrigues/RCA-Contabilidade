@@ -10,7 +10,7 @@
 }
 
 .help-title {
-  color: var(--base);
+  color: var(--Base);
 }
 
 .help-text {
@@ -28,7 +28,7 @@
 .help-cards {
   height: 350px;
   width: 300px;
-  border: 1px solid var(--highlight);
+  border: 1px solid var(--Highlight);
   margin: 0.5rem;
   border-radius: 15px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
@@ -44,7 +44,7 @@
 .help-card-icon {
   width: 80px;
   height: 80px;
-  border: thin outset var(--highlight);
+  border: thin outset var(--Highlight);
   border-radius: 10px;
   margin: 1rem;
 }
@@ -57,7 +57,7 @@
 
 .help-card-text {
   margin: 1rem;
-  color: var(--base);
+  color: var(--Base);
 }
 
 .saiba-mais-card {
@@ -67,14 +67,14 @@
 }
 
 .saiba-mais-card a:hover {
-  color: var(--base);
+  color: var(--Base);
 }
 
 .help-card-buttom {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--highlight);
+  color: var(--Highlight);
   font-weight: bold;
 }
 
@@ -98,7 +98,7 @@
   }
 
   .help-title {
-    color: var(--base);
+    color: var(--Base);
     text-align: center;
     font-size: 1.5rem;
   }
@@ -118,7 +118,7 @@
   .help-cards {
     height: 300px;
     width: 250px;
-    border: 1px solid var(--highlight);
+    border: 1px solid var(--Highlight);
     margin: 0.5rem;
     border-radius: 15px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
@@ -135,7 +135,7 @@
   .help-card-icon {
     width: 60px;
     height: 60px;
-    border: thin outset var(--highlight);
+    border: thin outset var(--Highlight);
     border-radius: 10px;
     margin: 1rem;
   }
@@ -148,7 +148,7 @@
 
   .help-card-text {
     margin: 0.5rem;
-    color: var(--base);
+    color: var(--Base);
   }
 
   .saiba-mais-card {
@@ -158,14 +158,14 @@
   }
 
   .saiba-mais-card a:hover {
-    color: var(--base);
+    color: var(--Base);
   }
 
   .help-card-buttom {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--highlight);
+    color: var(--Highlight);
     font-weight: bold;
   }
 

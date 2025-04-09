@@ -1,9 +1,0 @@
-@import "../style.css";
-
-.cta {
-  background-color: var(--Laranja);
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
