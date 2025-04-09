@@ -49,7 +49,7 @@
 .hero-cta {
   padding: 12px 25px;
   font-size: 18px;
-  background-color: var(--Dourado-Claro);
+  background-color: var(--Dourado-Insta);
   color: var(--neutral);
   text-decoration: none;
   border-radius: 5px;
@@ -86,8 +86,8 @@
           fill="#f97316"
           opacity="0.5"
         />
-      </svg> 
-   
+      </svg>
+
 */
 
 @media (max-width: 768px) {
@@ -95,15 +95,14 @@
     display: flex;
     flex-direction: column-reverse;
     color: var(--neutral);
-    text-align: center;
+    align-items: center;
     padding: 1rem;
   }
 
   .hero-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: auto;
   }
 
   @keyframes moves {
@@ -121,6 +120,7 @@
   #hero-vector-image {
     max-width: 250px;
     animation: moves 3s infinite ease-in-out;
+    padding: 3rem;
   }
 
   .hero-title {
@@ -130,15 +130,15 @@
   }
 
   .hero-description {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 2rem;
   }
 
   .hero-cta {
     padding: 12px 25px;
     font-size: 18px;
-    background-color: var(--Dourado-Claro);
-    color: var(--neutral);
+    background-color: var(--Dourado-Insta);
+    color: var(--base);
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.3s ease;

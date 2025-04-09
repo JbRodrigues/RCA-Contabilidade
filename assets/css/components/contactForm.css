@@ -51,5 +51,11 @@
   border-radius: 5px;
   background-color: var(--Dourado-Claro);
   height: 35px;
-  width: 107%;
+  width: 107%;  
+}
+
+input:focus,
+textarea:focus{
+  outline: none;
+  border: 2px solid var(--Roxo-Insta);
 }
