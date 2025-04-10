@@ -103,7 +103,7 @@
   .hero {
     display: flex;
     flex-direction: column-reverse;
-    color: var(--neutral);
+    color: var(--Neutral);
     align-items: center;
     padding: 1rem;
   }
@@ -135,7 +135,7 @@
   .hero-title {
     font-size: 24px;
     margin-bottom: 1rem;
-    color: var(--secondary);
+    color: var(--Secondary);
   }
 
   .hero-description {
@@ -146,8 +146,8 @@
   .hero-cta {
     padding: 12px 25px;
     font-size: 18px;
-    background-color: var(--Dourado-Insta);
-    color: var(--base);
+    background-color: var(--Highlight);
+    color: var(--Base);
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -155,7 +155,7 @@
 
   .hero-cta:hover {
     background-color: #dbbf63;
-    color: var(--base);
+    color: var(--Base);
     font-weight: bold;
     transform: scale(1.1) translateY(-3px);
   }

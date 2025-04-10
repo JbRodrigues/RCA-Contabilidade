@@ -8,6 +8,7 @@
 @import "components/contactForm.css";
 @import "components/navbar.css";
 @import "components/help.css";
+@import "components/about.css";
 
 :root {
   --Azul-Escuro: #1e3a8a; /*Cor primária (cabeçalho, títulos).*/

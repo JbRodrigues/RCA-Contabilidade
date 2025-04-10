@@ -22,7 +22,8 @@
 }
 
 .underline {
-  text-decoration: underline 3px solid var(--Dourado-Insta); /* Cor e estilo do sublinhado */
+  text-decoration: underline 3px solid var(--Dourado-Insta);
+  /* Cor e estilo do sublinhado */
 }
 
 .form-container {
@@ -60,7 +61,7 @@
   border-radius: 5px;
   background-color: var(--Dourado-Claro);
   height: 35px;
-  width: 107%;  
+  width: 107%;
 }
 
 .form-button:hover {
@@ -71,7 +72,77 @@
 }
 
 input:focus,
-textarea:focus{
+textarea:focus {
   outline: none;
   border: 2px solid var(--Roxo-Insta);
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    min-height: 600px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: var(--Neutral);
+  }
+
+  .form-title {
+    color: var(--Secondary);
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-field {
+    text-align: left;
+  }
+
+  .form-field label {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-field input,
+  .form-field textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .form-field textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+
+  .form-button {
+    font: 20px bold;
+    border-radius: 5px;
+    background-color: var(--Highlight);
+    color: var(--Base);
+    height: 35px;
+    width: 100%;
+  }
+
+  .form-button:hover {
+    background-color: #dbbf63;
+    color: var(--Base);
+    font-weight: bold;
+    transform: scale(1.1) translateY(-3px);
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid var(--Roxo-Insta);
+  }
 }
