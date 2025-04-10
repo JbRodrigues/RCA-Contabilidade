@@ -13,7 +13,7 @@
 }
 
 .form-title {
-  color: var(--Highlight);
+  color: var(--Base);
   transition: background-color 0.3s ease;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .underline {
-  text-decoration: underline 3px solid var(--Base);
+  text-decoration: underline 3px solid var(--Highlight);
 }
 
 .form-container {
@@ -75,6 +75,26 @@
 input:focus,
 textarea:focus {
   border: 2px solid var(--Highlight);
+}
+
+.contact-socials {
+}
+
+.contact-media-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  
+}
+
+.social-icon path{
+  fill: var(--Base);
 }
 
 @media (max-width: 768px) {

@@ -46,7 +46,7 @@
 }
 
 .underline-help {
-  text-decoration: underline solid var(--Base); /* Cor e estilo do sublinhado */
+  text-decoration: underline solid var(--Highlight); /* Cor e estilo do sublinhado */
 }
 
 .help-card-icon {
