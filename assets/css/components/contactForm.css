@@ -78,6 +78,7 @@ textarea:focus {
 }
 
 .contact-socials {
+  padding: 1rem;
 }
 
 .contact-media-container {
@@ -88,13 +89,24 @@ textarea:focus {
 }
 
 .social-icon {
-  width: 60px;
-  height: 60px;
-  
+  width: 50px;
+  height: 50px;
 }
 
-.social-icon path{
+.social-icon svg {
+  transition: fill 0.3s ease;
+}
+
+.social-icon path {
   fill: var(--Base);
+}
+
+.social-icon:hover path {
+  fill: var(--Highlight);
+}
+
+.social-icon:hover {
+  transform: scale(1.2) translateY(-5px);
 }
 
 @media (max-width: 768px) {
