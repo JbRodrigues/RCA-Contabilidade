@@ -6,14 +6,14 @@
   justify-content: center;
   flex-direction: column;
   min-height: 600px;
-  margin: 1rem;
-  padding: 1rem;
   text-align: center;
-  color: var(--Neutral);
+  padding: 3rem;
+  color: var(--Base);
+  background-color: var(--Secondary);
 }
 
 .form-title {
-  color: var(--Secondary);
+  color: var(--Highlight);
   transition: background-color 0.3s ease;
 }
 
@@ -22,8 +22,7 @@
 }
 
 .underline {
-  text-decoration: underline 3px solid var(--Dourado-Insta);
-  /* Cor e estilo do sublinhado */
+  text-decoration: underline 3px solid var(--Base);
 }
 
 .form-container {
@@ -60,7 +59,8 @@
   font: 20px bold;
   border: 0;
   border-radius: 5px;
-  background-color: var(--Dourado-Claro);
+  background-color: var(--Highlight);
+  color: var(--Base);
   height: 35px;
   width: 107%;
 }
@@ -74,8 +74,7 @@
 
 input:focus,
 textarea:focus {
-  outline: none;
-  border: 2px solid var(--Roxo-Insta);
+  border: 2px solid var(--Highlight);
 }
 
 @media (max-width: 768px) {
@@ -115,7 +114,6 @@ textarea:focus {
   .form-field input,
   .form-field textarea {
     padding: 5px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
   }
@@ -144,6 +142,8 @@ textarea:focus {
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid var(--Roxo-Insta);
+    border: 5px solid var(--Highlight);
+    background-color: var(--Secondary);
+    color: var(--Base);
   }
 }

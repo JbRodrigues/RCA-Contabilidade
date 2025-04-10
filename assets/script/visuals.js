@@ -1,32 +1,36 @@
 /*FUNÇAO PARA ADICIONAR O UNDERLINE NAS SEÇOES 'HELP' E 'HERO' DO INDEX.HTML DE FORMA DINAMICA*/
 document.querySelector(".hero").addEventListener("mouseenter", function () {
-  const targetWords = document.querySelectorAll(".underline-target");
+  const targetWords = document.querySelectorAll(".underline-target-hero");
   targetWords.forEach((word) => {
-    word.classList.add("underline");
+    word.classList.add("underline-hero");
   });
 });
 
 document.querySelector(".hero").addEventListener("mouseleave", function () {
-  const targetWords = document.querySelectorAll(".underline-target");
+  const targetWords = document.querySelectorAll(".underline-target-hero");
   targetWords.forEach((word) => {
-    word.classList.remove("underline");
+    word.classList.remove("underline-hero");
   });
 });
 
+
+
 /*-------------------------------------------------------------------------------*/
 document.querySelector(".help").addEventListener("mouseenter", function () {
-  const targetWords = document.querySelectorAll(".underline-target1");
+  const targetWords = document.querySelectorAll(".underline-target-help");
   targetWords.forEach((word) => {
-    word.classList.add("underline");
+    word.classList.add("underline-help");
   });
 });
 
 document.querySelector(".help").addEventListener("mouseleave", function () {
-  const targetWords = document.querySelectorAll(".underline-target1");
+  const targetWords = document.querySelectorAll(".underline-target-help");
   targetWords.forEach((word) => {
-    word.classList.remove("underline");
+    word.classList.remove("underline-help");
   });
 });
+
+
 
 /*-------------------------------------------------------------------------------*/
 document.querySelector(".contact-form").addEventListener("mouseenter", function () {
@@ -42,6 +46,9 @@ document.querySelector(".contact-form").addEventListener("mouseleave", function 
     word.classList.remove("underline");
   });
 });
+
+
+
 
 /*-------------------------------------------------------------------------------*/
 document.querySelector("#about-card1").addEventListener("mouseenter", function () {
