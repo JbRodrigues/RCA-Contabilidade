@@ -63,11 +63,6 @@ header {
   text-decoration: underline solid 3px var(--Roxo-Medio);
 }
 
-hr {
-  border: 2px solid var(--Highlight);
-  margin-top: 0;
-}
-
 /* Botão hamburguer */
 .menu-toggle {
   display: none;

@@ -2,20 +2,28 @@
 
 /* footer.css */
 .footer {
-  background-color: #333;
-  color: white;
-  padding: 30px 20px;
+  background-color: var(--Neutral);
+  color: var(--Base);
+  padding: 4rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content {
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.footer-links {
-  margin-top: 20px;
+#footer-hr {
+  background-color: var(--Base);
+  height:1px solid;
+  width: 100%;
 }
+
 
 .footer-links a {
   color: white;
