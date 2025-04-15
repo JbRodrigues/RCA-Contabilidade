@@ -1,5 +1,5 @@
-const form = document.getElementById("contact");
-const formName = document.getElementById("name");
+const form = document.getElementById("form");
+const formName = document.getElementById("nome");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
 
