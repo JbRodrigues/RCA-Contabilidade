@@ -37,54 +37,65 @@
 .form-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   padding: 1rem;
   width: 50%;
 }
 
-.form-field {
-  text-align: left;
-  width: 100%;
-  margin: .5rem;
-}
-
-.form-field label {
-  font-size: 20px;
-}
-
-.form-field input,
-.form-field textarea {
-  width: 100%;
-  height: 40px;
+form {
+  min-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+form input,
+form textarea,
+form button {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 10px;
   font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
 
-.form-field textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.form-button {
-  font: 20px bold;
-  border-radius: 5px;
-  background-color: var(--Highlight);
-  color: var(--Base);
-  height: 35px;
-  width: 100%;
+form button {
+  background: var(--Highlight);
+  color: #fff;
   border: none;
+  cursor: pointer;
 }
 
-.form-button:hover {
-  background-color: #dbbf63;
-  color: var(--Base);
-  font-weight: bold;
-  transform: scale(1.1) translateY(-3px);
+form button:hover {
+  background: #dfbd50;
 }
 
-input:focus,
-textarea:focus {
-  border: 2px solid var(--Highlight);
+form input:focus,
+form textarea:focus {
+  border: 2px solid var(--Secondary);
+}
+
+#label-name,
+#label-email {
+  color: var(--Roxo-Medio);
+  width: 100%;
+  text-align: left;
+  padding: .3rem;
+  margin: .2rem;
+}
+
+.form-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .contact-socials {
