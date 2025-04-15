@@ -100,12 +100,14 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
 .contact-media-card {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   padding: 1rem;
 }
