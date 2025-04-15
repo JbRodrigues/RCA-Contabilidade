@@ -106,9 +106,10 @@ textarea:focus {
 
 .contact-media-card {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
   width: 100%;
+  margin-left: 5rem;
   padding: 1rem;
 }
 
