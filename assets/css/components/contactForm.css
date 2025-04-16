@@ -157,67 +157,75 @@ form textarea:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
-    min-height: 600px;
-    margin: 1rem;
-    padding: 1rem;
     text-align: center;
-    color: var(--Neutral);
+    padding: 1rem;
+    color: var(--Base);
+    background-color: var(--Secondary);
   }
 
-  .form-title {
-    color: var(--Secondary);
-    transition: background-color 0.3s ease;
+  .underline-target2 {
+    text-decoration: underline 3px solid var(--Highlight);
   }
 
-  .form-container {
-    margin: 0 auto;
+  .contact-form-itens {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
-  .form-field {
-    text-align: left;
+  #form {
+    width: 300px;
   }
 
-  .form-field label {
-    font-size: 20px;
-    margin-bottom: 0.5rem;
+  #label-name,
+  #label-email {
+    color: var(--Roxo-Medio);
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid magenta;
   }
 
-  .form-field input,
-  .form-field textarea {
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 16px;
+  .contact-socials {
+
+    align-items: center;
+    justify-content: center;
   }
 
-  .form-field textarea {
-    min-height: 120px;
-    resize: vertical;
+  .contact-media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   }
 
-  .form-button {
-    font: 20px bold;
-    border-radius: 5px;
-    background-color: var(--Highlight);
-    color: var(--Base);
-    height: 35px;
+  .contact-media-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
+    padding: 0;
+    margin: 0;
+
   }
 
-  .form-button:hover {
-    background-color: #dbbf63;
+  .contact-media-text {
+    margin: 1rem;
+    text-decoration: underline var(--Highlight);
     color: var(--Base);
-    font-weight: bold;
-    transform: scale(1.1) translateY(-3px);
   }
 
-  input:focus,
-  textarea:focus {
-    outline: none;
-    border: 5px solid var(--Highlight);
-    background-color: var(--Secondary);
-    color: var(--Base);
+  .social-icon {
+    width: 50px;
+    height: 50px;
   }
+
+  .social-icon svg {
+    transition: fill 0.3s ease;
+  }
+
+  .social-icon path {
+    fill: var(--Base);
+  }
+
 }
