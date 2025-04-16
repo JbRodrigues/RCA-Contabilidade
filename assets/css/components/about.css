@@ -53,3 +53,37 @@
     background-color: var(--Roxo-Medio);
     color: var(--Base);
 }
+
+.about-hero-cta {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--Highlight);
+    color: var(--Base);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: .5rem;
+}
+
+.about-hr {
+    display: none;
+    width: 100%;
+    background-color: var(--Neutral);
+}
+
+@media (max-width: 768px) {
+    .about-cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-hr {
+        display: block;
+        width: 100%;
+        background-color: var(--Neutral);
+        height: thin;
+    }
+
+
+}
