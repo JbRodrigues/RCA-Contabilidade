@@ -37,6 +37,7 @@
   flex-direction: row;
   height: 200px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .footer-colum {
