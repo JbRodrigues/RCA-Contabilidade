@@ -22,9 +22,11 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(8px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -119,9 +121,11 @@
     0% {
       transform: translateY(0);
     }
+
     50% {
       transform: translateY(4px);
     }
+
     100% {
       transform: translateY(0);
     }
@@ -142,6 +146,10 @@
   .hero-description {
     font-size: 18px;
     margin-bottom: 2rem;
+  }
+
+  .underline-target-hero {
+    text-decoration: underline 3px solid var(--Highlight);
   }
 
   .hero-cta {

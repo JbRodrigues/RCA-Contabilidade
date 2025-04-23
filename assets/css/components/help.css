@@ -46,7 +46,8 @@
 }
 
 .underline-help {
-  text-decoration: underline solid var(--Highlight); /* Cor e estilo do sublinhado */
+  text-decoration: underline solid var(--Highlight);
+  /* Cor e estilo do sublinhado */
 }
 
 .help-card-icon {
@@ -101,7 +102,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--Roxo-Medio);
+    background-color: var(--Secondary);
     padding: 1rem;
   }
 
@@ -110,6 +111,10 @@
     text-align: center;
     font-size: 1.5rem;
     transition: background-color 0.3s ease;
+  }
+
+  .underline-target-help {
+    text-decoration: underline 3px solid var(--Highlight);
   }
 
   .help-text {
@@ -123,6 +128,8 @@
     display: flex;
     flex-direction: column;
   }
+
+
 
   .help-cards {
     height: 300px;

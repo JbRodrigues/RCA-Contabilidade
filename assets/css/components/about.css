@@ -66,6 +66,13 @@
     margin-top: .5rem;
 }
 
+.about-hero-cta:hover {
+    background-color: #dbbf63;
+    color: var(--Base);
+    font-weight: bold;
+    transform: scale(1.1) translateY(-3px);
+}
+
 .about-hr {
     display: none;
     width: 100%;
