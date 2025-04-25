@@ -55,6 +55,14 @@ form {
   flex-direction: column;
 }
 
+form label {
+  display: flex;
+  margin-bottom: .4rem;
+  text-align: start;
+  font-size: 18px;
+  color: var(--Secondary);
+}
+
 form input,
 form textarea,
 form button {

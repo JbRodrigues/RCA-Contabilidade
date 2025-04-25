@@ -1,14 +1,29 @@
-const form = document.getElementById("form");
-const email = document.getElementById("email");
-const message = document.getElementById("message");
+require("dotenv").config();
+(function () {
+  // Inicialize o EmailJS com sua Public Key
+  emailjs.init({
+    publicKey: process.env.EmailJS_PK,
+  });
+})();
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("Formulário enviado! Entraremos em contato em breve.");
-  formName.value = "";
-  email.value = "";
-  message.value = "";
+// Manipule o envio do formulário
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault(); // Evita o comportamento padrão do formulário
+
+  // Envie o formulário usando EmailJS
+  emailjs
+    .sendForm(
+      process.env.EMAILJS_SERVICEID,
+      process.env.EMAILJS_TEMPLATEID,
+      this
+    )
+    .then(
+      function () {
+        alert("Mensagem enviada com sucesso!");
+        document.getElementById("form").reset(); // Limpa o formulário
+      },
+      function (error) {
+        alert("Erro ao enviar a mensagem: " + JSON.stringify(error));
+      }
+    );
 });
-
-
-
